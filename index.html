@@ -9,6 +9,110 @@
     <title>Biker-Zone</title>
   </head>
   <body>
+    <!-- Header Area -->
+    <header id="header" class="biker-header-bg">
+      <!-- Navigation Bar -->
+      <div>
+        <nav class="navbar navbar-expand-md bg-transparent">
+          <div class="container">
+            <button
+              class="navbar-toggler ms-auto text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse text-end mt-3"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav fw-medium ms-auto me-md-5 mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="contact.html">Contact</a>
+                </li>
+              </ul>
+
+              <button class="biker-btn" type="submit">Search</button>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Banner -->
+      <div class="container">
+        <div
+          class="row row-cols-1 row-cols-lg-2 d-flex flex-lg-row flex-column-reverse gx-3 gy-4 mt-lg-5"
+        >
+          <div class="col d-flex justify-content-center align-items-center">
+            <div>
+              <p class="text-white fw-lighter">
+                Computer-controlled digital transistorized with electronic
+                advance
+              </p>
+              <h1 class="fw-bold display-4 text-white">Honda CBR 300R</h1>
+              <p class="text-white">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <button class="biker-btn">Purchase</button>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center align-items-center">
+            <div class="text-end">
+              <img
+                class="w-100"
+                src="./images/header-bike.png"
+                alt="Header Bike"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Area -->
+    <main id="main" class="container my-5">
+      <!-- Feature Bike -->
+      <section id="feature">
+        <div class="text-center">
+          <h2>Featured Bikes In This Year</h2>
+          <p class="biker-text fw-medium">Best bike collection</p>
+          <hr class="w-25 mx-auto border-3 biker-border" />
+        </div>
+        <div class="row my-5 text-center">
+          <div class="col">
+            <img class="w-75 biker-black-white" src="./images/feature-bike.jpg" alt="">
+          </div>
+          <div class="col">
+            <img class="w-75" src="./images/feature-bike.jpg" alt="">
+          </div>
+          <div class="col">
+            <img class="w-75 biker-black-white" src="./images/feature-bike.jpg" alt="">
+          </div>
+        </div>
+      </section>
+
+      
+    </main>
+
     <!-- Script -->
     <script src="./js/bootstrap.min.js"></script>
   </body>
